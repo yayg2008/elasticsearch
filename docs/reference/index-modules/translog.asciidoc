@@ -50,7 +50,7 @@ control the behaviour of the transaction log:
 `index.translog.sync_interval`::
 
 How often the translog is ++fsync++ed to disk and committed, regardless of
-write operations. Defaults to `5s`. Values less than `100ms` are not allowed.
+write operations. Defaults to `5s`. Values less than `100ms` are not allowed.(This setting can not update dynamic)
 
 `index.translog.durability`::
 +
